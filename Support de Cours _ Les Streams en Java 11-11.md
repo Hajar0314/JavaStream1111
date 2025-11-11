@@ -222,22 +222,77 @@ Les exercices suivants utilisent la liste de clients fournie par `ClientData.get
 ### Exercice 1 : Filtrage et Tri
 
 **Objectif :** Trouver tous les clients résidant à **"Lyon"** et les trier par **chiffre d'affaires décroissant**.
+public class Client {
+    private int id;
+    private String nom;
+    private String ville;
+    private double chiffreAffaires;
+    public int getId() { return id; }
+    public String getNom() { return nom; }
+    public String getVille() { return ville; }
+    public double getChiffreAffaires() { return chiffreAffaires; }
+    List<Client> clients = ClientData.getClients();
+List<Client> clientsLyon = clients.stream()
+    .filter(c -> c.getVille().equalsIgnoreCase("Lyon"))
+    .sorted(Comparator.comparing(Client::getChiffreAffaires).reversed())
+    .toList();
+
+clientsLyon.forEach(System.out::println);
+
+}
+
 
 ### Exercice 2 : Transformation et Collecte
 
 **Objectif :** Créer une `Map<Integer, String>` où la clé est l'**ID du client** et la valeur est son **nom**.
+Map<Integer, String> mapClients = clients.stream()
+    .collect(Collectors.toMap(Client::getId, Client::getNom));
+
+mapClients.forEach((id, nom) -> System.out.println(id + " : " + nom));
+
 
 ### Exercice 3 : Agrégation
 
 **Objectif :** Calculer le **chiffre d'affaires total** des clients de **"Paris"**.
+double totalParis = clients.stream()
+    .filter(c -> c.getVille().equalsIgnoreCase("Paris"))
+    .mapToDouble(Client::getChiffreAffaires)
+    .sum();
+
+System.out.println("CA total des clients de Paris : " + totalParis);
+
 
 ### Exercice 4 : Opérations Complexes (Regroupement)
 
 **Objectif :** Regrouper les clients par **ville** et, pour chaque ville, calculer le **chiffre d'affaires moyen** de ses clients. Le résultat doit être une `Map<String, Double>`.
+Map<String, Double> caMoyenParVille = clients.stream()
+    .collect(Collectors.groupingBy(
+        Client::getVille,
+        Collectors.averagingDouble(Client::getChiffreAffaires)
+    ));
+
+caMoyenParVille.forEach((ville, caMoyen) ->
+    System.out.println(ville + " → CA moyen : " + caMoyen)
+);
+
 
 ### Exercice 5 : Vérification et Transformation
 
 **Objectif :** Vérifier si **tous** les clients ont un CA supérieur à 50 000. Si oui, afficher la liste des noms des clients en **majuscules**.
+boolean tousSup50k = clients.stream()
+    .allMatch(c -> c.getChiffreAffaires() > 50000);
+
+if (tousSup50k) {
+    List<String> nomsMaj = clients.stream()
+        .map(c -> c.getNom().toUpperCase())
+        .toList();
+
+    System.out.println("Tous les clients ont un CA > 50 000 :");
+    nomsMaj.forEach(System.out::println);
+} else {
+    System.out.println("Tous les clients n'ont pas un CA > 50 000.");
+}
+
 
 ---
 
