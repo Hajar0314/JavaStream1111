@@ -7,15 +7,15 @@ Emsi Moulay Youssef
 
 <img width="724" height="700" alt="Photo.Hajar-Belhachmi" src="Hajar.Belhachmi.jpg" />
 
-Titre du Projet: Système de gestion de bibliothèque
+Titre du Projet: Application de Journaling Émotionnel avec Analyse IA
 
 Description:
-Le projet consiste à développer un système informatique complet de gestion d’une bibliothèque, permettant de gérer de manière efficace et sécurisée l’ensemble des opérations liées aux livres, aux membres et aux transactions de prêt. L’application vise à automatiser les tâches quotidiennes, réduire les erreurs humaines et fournir des outils statistiques pour améliorer la gestion.
+Ce projet consiste à développer une application mobile de journaling émotionnel intelligent utilisant les technologies Java. L'application permettra aux utilisateurs de tenir un journal personnel numérique où ils pourront consigner quotidiennement leurs pensées, émotions et expériences. La particularité innovante de ce projet réside dans l'intégration de systèmes d'intelligence artificielle capables d'analyser automatiquement le contenu des entrées pour détecter l'état émotionnel de l'utilisateur.
 
-Le système de gestion de bibliothèque a pour objectif de centraliser et d’automatiser toutes les opérations liées aux livres et aux membres. Il permet l’enregistrement et la gestion des livres, y compris le suivi de leurs exemplaires (disponibles, empruntés), ainsi que la recherche rapide par titre, auteur, catégorie ou mots-clés. Le module de gestion des membres offre la possibilité d’ajouter, modifier ou supprimer des profils, de suivre l’historique des prêts et des réservations, et d’appliquer des règles spécifiques selon le type de membre, comme la durée du prêt ou le nombre maximal de livres empruntables. Les fonctionnalités de prêts et retours automatisent l’enregistrement des transactions, calculent les dates d’échéance, génèrent des alertes en cas de retard et appliquent des pénalités si nécessaire. Les membres peuvent également réserver des livres indisponibles et être notifiés automatiquement lorsqu’ils deviennent disponibles. Le système fournit des statistiques et rapports détaillés sur l’activité de la bibliothèque, aidant le personnel et les administrateurs à prendre des décisions éclairées. Enfin, l’interface utilisateur est conçue pour être simple et intuitive, permettant au personnel comme aux membres de consulter facilement leur compte et l’historique des prêts, tout en garantissant la sécurité des données et une gestion des rôles adaptée aux différents types d’utilisateurs (administrateur, bibliothécaire, membre).
+L'IA dans cette application analyse automatiquement les écrits du journal pour détecter l'humeur de l'utilisateur. Elle identifie les émotions dominantes et leur intensité grâce au traitement du langage naturel. Cette analyse permet d'offrir un reflet précis de l'état émotionnel et de proposer des exercices adaptés.
 
-Valeur ajoutée du projet:
-Automatisation des tâches répétitives : gain de temps pour le personnel.
-Réduction des erreurs humaines : suivi précis des prêts, retours et pénalités.
-Amélioration de l’expérience des membres : recherche rapide, réservation en ligne, consultation facile.
-Décisions basées sur les données : statistiques fiables pour optimiser le fonctionnement de la bibliothèque.
+L'application proposera un ensemble d'exercices psychologiques simples et concrets, soigneusement présélectionnés pour répondre à différentes humeurs. Chaque exercice sera formulé de manière claire et accessible, avec des consignes précises que l'utilisateur pourra appliquer immédiatement sans préparation particulière.
+
+Au-delà du simple suivi, l'application agira comme un véritable guide vers une meilleure connaissance de soi. Elle aidera à identifier les déclencheurs émotionnels, à reconnaître les schémas de pensée récurrents, et à développer une intelligence émotionnelle plus affûtée. L'objectif final est d'offrir un outil accessible et discret pour cultiver son équilibre mental au quotidien, transformant la pratique d'introspection en un voyage d'apprentissage personnel continu et enrichissant.
+
+
