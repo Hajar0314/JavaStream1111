@@ -347,7 +347,7 @@ Vous devriez voir un fichier similaire à ceci :
 
 #### Étape 1 : Ajouter la section properties
 Juste après la balise `<version>`, ajoutez :
-
+a utiliser pour indiquer l adressee url de la base de donnee
 ```xml
 <properties>
     <maven.compiler.source>11</maven.compiler.source>
