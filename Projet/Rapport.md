@@ -5,7 +5,7 @@ Groupe2 4IIR.
 Emsi Moulay Youssef
 
 
-<img width="724" height="700" alt="Photo.Hajar-Belhachmi" src="Hajar.Belhachmi.jpg" />
+<img width="724" height="700" alt="Photo.Hajar-Belhachmi" src="Hajar.jpg" />
 
 Titre du Projet: Application de Journaling Émotionnel avec Analyse IA
 
