@@ -18,4 +18,4 @@ L'application proposera un ensemble d'exercices psychologiques simples et concre
 
 Au-delà du simple suivi, l'application agira comme un véritable guide vers une meilleure connaissance de soi. Elle aidera à identifier les déclencheurs émotionnels, à reconnaître les schémas de pensée récurrents, et à développer une intelligence émotionnelle plus affûtée. L'objectif final est d'offrir un outil accessible et discret pour cultiver son équilibre mental au quotidien, transformant la pratique d'introspection en un voyage d'apprentissage personnel continu et enrichissant.
 
-
+<img width="724" height="700" alt="Use Cse" src="https://github.com/Hajar0314/JavaStream1111/blob/main/Projet/classe%20diagrame.drawiofinal.png" />
