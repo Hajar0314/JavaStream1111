@@ -12,7 +12,7 @@ Titre du Projet: Application de Journaling Émotionnel avec Analyse IA
 Description:
 Ce projet consiste à développer une application mobile de journaling émotionnel intelligent utilisant les technologies Java. L'application permettra aux utilisateurs de tenir un journal personnel numérique où ils pourront consigner quotidiennement leurs pensées, émotions et expériences. La particularité innovante de ce projet réside dans l'intégration de systèmes d'intelligence artificielle capables d'analyser automatiquement le contenu des entrées pour détecter l'état émotionnel de l'utilisateur.
 
-L'IA dans cette application analyse automatiquement les écrits du journal pour détecter l'humeur de l'utilisateur. Elle identifie les émotions dominantes et leur intensité grâce au traitement du langage naturel. Cette analyse permet d'offrir un reflet précis de l'état émotionnel et de proposer des exercices adaptés.
+L'IA dans cette application analyse automatiquement les écrits du journal pour détecter l'humeur de l'utilisateur. Elle identifie les émotions dominantes grâce au traitement du langage naturel. Cette analyse permet d'offrir un reflet précis de l'état émotionnel et de proposer des exercices adaptés.
 
 L'application proposera un ensemble d'exercices psychologiques simples et concrets, soigneusement présélectionnés pour répondre à différentes humeurs. Chaque exercice sera formulé de manière claire et accessible, avec des consignes précises que l'utilisateur pourra appliquer immédiatement sans préparation particulière.
 
